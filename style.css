@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-   background-image: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
+   background-color: radial-gradient(circle at 12.5% 12.5%, #ffc66d 0, #ffcc5c 5%, #ffd24b 10%, #ffd73a 15%, #ffda27 20%, #ffdd10 25%, #e5df00 30%, #c9df00 35%, #a9de00 40%, #84dc00 45%, #54d80b 50%, #00d425 55%, #00cf3a 60%, #00cb4e 65%, #00c763 70%, #00c378 75%, #00bf8f 80%, #00bca7 85%, #00babf 90%, #00b8d8 95%, #00b7f0 100%); }
 }
 
 #natural-image{
