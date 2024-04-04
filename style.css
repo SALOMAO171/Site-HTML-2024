@@ -1,25 +1,33 @@
-h1,h2{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
     text-align: center;
-     background-color: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
-    border-radius: 20px;
-    width: 400px;
-    height: 230px;
+    background: linear-gradient(to bottom right, blue, green); /* Degrade azul e verde */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.page-center{
-    margin-left: 27%;
-    width: 45%;
-    height: 30%;
-    display: flex; 
+h1, h2 {
+    font-size: 30px;
+    font-family: Arial, sans-serif; /* Estilo de fonte a ser escolhido */
+    color: black; /* Cor da letra */
+}
+
+a {
+    color: blue; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.page-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 230px;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -27,7 +35,7 @@ body{
     border-radius: 20px;
 }
 
-.box-natural{
+.box-natural, .box-suplementos {
     gap: 10px;
     width: 50%;
     display: flex;
@@ -37,66 +45,4 @@ body{
     flex-direction: column;
 }
 
-.box-natural a, .box-suplementos a{
-    text-decoration: none;
-}
-
-.box-suplementos{
-    margin-top: 10px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-#suplementos{
-    border-radius: 20px;
-    width: 400px;
-    height: 230px;
-}
-
-.center-outros{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.naturais{
-    display: flex;
-    margin-top: 30px;
-    padding: 10px;
-    width: 400px;
-    flex-direction: column;
-    text-align: left;
-    font-size: 20px;
-    background-color: #55a630;
-    border-radius: 20px;
-}
-
-.naturais p, .suplementos p{
-    color: white;
-}
-
-.suplementos{
-    margin-top: 30px;
-    padding: 10px;
-    width: 400px;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    background-color:#55a630;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-h1{
-    color: #ffff3f;
-}
-
-.h2-infos{
-    color:#ffff3f;
-}
+.box-natural a,
