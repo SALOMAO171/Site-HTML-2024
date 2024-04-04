@@ -9,7 +9,8 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-   background-color: radial-gradient(circle at 12.5% 12.5%, #ffc66d 0, #ffcc5c 5%, #ffd24b 10%, #ffd73a 15%, #ffda27 20%, #ffdd10 25%, #e5df00 30%, #c9df00 35%, #a9de00 40%, #84dc00 45%, #54d80b 50%, #00d425 55%, #00cf3a 60%, #00cb4e 65%, #00c763 70%, #00c378 75%, #00bf8f 80%, #00bca7 85%, #00babf 90%, #00b8d8 95%, #00b7f0 100%); }
+    background: rgb(9,121,12);
+background: linear-gradient(90deg, rgba(9,121,12,0.4990371148459384) 28%, rgba(0,212,255,1) 100%);
 }
 
 #natural-image{
